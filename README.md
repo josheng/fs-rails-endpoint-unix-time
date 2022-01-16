@@ -4,7 +4,7 @@ This app was created to return the difference between the earliest and latest un
 
 ## Assumption
 
-The code was written assuming that the timestamp was to be sent in a POST request as an array in JSON format.
+The code was written assuming that the timestamp was to be sent in a POST request as an array with the word "time" as the parameter in JSON format.
 
 ## Instruction
 
