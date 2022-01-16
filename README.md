@@ -1,24 +1,14 @@
-# README
+# Introduction
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app was created to return the difference between the earliest and latest unix timestamp in terms of years.
 
-Things you may want to cover:
+## Assumption
 
-* Ruby version
+The code was written assuming that the timestamp was to be sent in a POST request as an array in JSON format.
 
-* System dependencies
+## Instruction
 
-* Configuration
+To run this locally, Rails v6 has to be installed in the system.
+The repo can be cloned from: https://github.com/josheng/fs-rails-endpoint-unix-time
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+For initial setup on local host, please run the following line
