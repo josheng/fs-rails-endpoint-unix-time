@@ -1,7 +1,7 @@
 class Api::V1::UnixtimeController < ApplicationController
   def year
     # store the params from post request into a variable
-    unix_time = params[:time]
+    unix_time = JSON.parse(params[:time])
     year_array = []
     unix_time.each do |time|
       # convert unix time to year and store into array
